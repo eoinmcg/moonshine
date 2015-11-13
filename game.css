@@ -1,0 +1,18 @@
+html, body { background-color: #000; margin: 0; padding: 0; }
+
+* { user-select: none; }
+
+* { -webkit-tap-highlight-color: rgb(0, 0, 0, 0); -webkit-touch-callout: none; }
+
+#game { position: absolute; left: 0; top: 0; min-width: 320px; min-height: 480px; width: 320px; height: 480px; z-index: 0; }
+
+#moonshine { position: absolute; left: 0; top: 0; min-width: 320px; min-height: 480px; width: 100%; height: 100%; image-rendering: optimizeSpeed; -ms-interpolation-mode: nearest-neighbor; -webkit-optimize-contrast; z-index: 1; }
+canvas { image-rendering: optimizeSpeed; -ms-interpolation-mode: nearest-neighbor; -webkit-optimize-contrast; }
+
+:webkit-full-screen { width: 100%; height: 100%; }
+
+#orientate { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #1a4f4f; display: none; z-index: 6; }
+
+#orientate img { position: absolute; width: 254px; height: 212px; left: 50%; top: 50%; margin-top: -106px; margin-left: -127px; }
+
+
